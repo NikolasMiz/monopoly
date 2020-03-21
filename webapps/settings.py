@@ -28,12 +28,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost',
-                 '127.0.0.1',
-                 'ec2-18-188-96-54.us-east-2.compute.amazonaws.com',
-                 '18.188.96.54',
-                  '0.0.0.0' ]
-
 # Application definition
 
 INSTALLED_APPS = [

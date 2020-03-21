@@ -1,1 +1,1 @@
-web: gunicorn monopoly:app
+web: gunicorn monopoly

@@ -23,6 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '7d#m%i!ed32ei5v(i2da*#w9od=_m9u&*6&-6jla1fqdb=66_('
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 

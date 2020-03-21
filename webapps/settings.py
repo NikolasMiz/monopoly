@@ -30,6 +30,9 @@ DEBUG = True
 
 # Application definition
 
+
+ALLOWED_HOSTS = ['nm-poly.herokuapp.com']
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',

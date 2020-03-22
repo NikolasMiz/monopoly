@@ -92,7 +92,7 @@ WSGI_APPLICATION = 'webapps.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'heroku_33565e41554f683', 'USER': 'bc01a68735a094', 'PASSWORD': 'b3fef7c1', 'HOST': 'us-cdbr-iron-east-04.cleardb.net'
+        'NAME': 'heroku_33565e41554f683', 'USER': 'bc01a68735a094', 'PASSWORD': '01740a375c797b7', 'HOST': 'us-cdbr-iron-east-04.cleardb.net'
     }
 }
 
